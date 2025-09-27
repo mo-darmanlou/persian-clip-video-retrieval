@@ -1,7 +1,7 @@
 
 # Video Retrieval using Fine-Tuned Persian CLIP
 
-This project is a deep learning model for retrieving videos based on a Persian text query. It uses a fine-tuned CLIP model to find the most relevant videos from a collection. The project includes a web API and a user interface for interacting with the model.
+This project is a deep learning model for retrieving videos based on a Persian text query. It fine-tunes the CLIP model to find the most relevant videos from a collection. The project includes a web API and a user interface for interacting with the model.
 
 ## Project Structure
 
@@ -72,3 +72,11 @@ streamlit run app_ui.py
 3.  **Use the application:**
 
     Open the Streamlit UI in your browser. You can upload videos and then use a Persian text query to retrieve the most relevant videos.
+
+
+## Usage Example
+
+Below is an example of the application retrieving relevant videos based on the Persian query for "a man driving a car".
+
+<img width="1825" height="1144" alt="usage_example" src="https://github.com/user-attachments/assets/37dfc4a5-e49f-4d89-ac58-19c901bb86eb" />
+
